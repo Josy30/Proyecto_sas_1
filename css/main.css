@@ -23,6 +23,27 @@ nav .icons button {
   border-style: none;
 }
 
+article {
+  width: auto;
+  color: #7C6A0A;
+  padding-left: 45px;
+  padding-right: 45px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+}
+article h1 {
+  font-size: 3em;
+}
+article p {
+  font-size: 1.5em;
+}
+
+img {
+  width: 25vw;
+  border-radius: 19px;
+}
+
 footer {
   background-color: #FA9500;
   width: 100%;
