@@ -10,9 +10,11 @@ nav {
   padding: 15px;
   display: flex;
   justify-content: space-between;
-  color: #7C6A0A p;
-  color-font-size: 1.5em;
-  color-padding-left: 30px;
+  color: #7C6A0A;
+}
+nav p {
+  font-size: 1.5em;
+  padding-left: 30px;
 }
 nav .icons {
   display: flex;
@@ -28,18 +30,33 @@ article {
   color: #7C6A0A;
   padding-left: 45px;
   padding-right: 45px;
-  background-color: white;
   display: flex;
   justify-content: space-between;
 }
+article .impact-section {
+  display: flex;
+  flex-direction: column;
+  padding-top: 50px;
+  gap: 25px;
+}
 article h1 {
   font-size: 3em;
+  padding: 0px;
+  margin: 0px;
 }
 article p {
   font-size: 1.5em;
 }
-
-img {
+article button {
+  width: 12vw;
+  padding: 20px;
+  background-color: #FA9500;
+  font-size: 1em;
+  border-style: none;
+  border-radius: 35px;
+  color: white;
+}
+article img {
   width: 25vw;
   border-radius: 19px;
 }
